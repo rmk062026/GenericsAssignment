@@ -2,7 +2,7 @@ using GenericsAssignment.interfaces;
 
 namespace GenericsAssignment.Repositorys;
 
-public class Repository<T> : IRepository<T>
+public class Repository<T> : IRepository<T> where T : class
 {
     private List<T> items = new();
     public void Add(T item)
