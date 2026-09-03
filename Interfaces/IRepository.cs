@@ -1,4 +1,4 @@
-namespace GenericsAssignment.interfaces;
+namespace GenericsAssignment.Interfaces;
 
 public interface IRepository<T> where T : class
 {

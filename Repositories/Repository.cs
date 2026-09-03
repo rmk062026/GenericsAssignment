@@ -1,4 +1,4 @@
-using GenericsAssignment.interfaces;
+using GenericsAssignment.Interfaces;
 
 namespace GenericsAssignment.Repositorys;
 
