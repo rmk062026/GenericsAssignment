@@ -1,6 +1,6 @@
 using GenericsAssignment.Interfaces;
 
-namespace GenericsAssignment.Repositorys;
+namespace GenericsAssignment.Repositories;
 
 public class Repository<T> : IRepository<T> where T : class
 {

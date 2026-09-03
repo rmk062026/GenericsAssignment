@@ -1,7 +1,7 @@
 ﻿namespace GenericsAssignment;
 
 using GenericsAssignment.Models;
-using GenericsAssignment.Repositorys;
+using GenericsAssignment.Repositories;
 
 class Program
 {
